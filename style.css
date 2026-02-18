@@ -277,3 +277,62 @@ ul a {
 .nav-signin,
 .nav-return,
 .nav-cart{padding:5px;}
+
+
+@media (max-width: 768px){
+
+    .navbar{
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px;
+    }
+
+    .nav-search{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .search-input{
+        width: 100%;
+    }
+
+    .panel{
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px;
+    }
+
+    .panel-ops{
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .hero-section{
+        height: 200px;
+    }
+
+    .hero-msg{
+        width: 95%;
+        font-size: 0.7rem;
+    }
+
+    .shop-section{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box{
+        width: 90%;
+    }
+
+    .foot-panel2{
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .foot-panel2 ul{
+        margin-bottom: 20px;
+    }
+}
+
