@@ -1,7 +1,7 @@
 *{
     margin:0;
     font-family: arial;
-    border: border-box;
+    box-sizing: border-box;
 }
 
 /* box1 yaha se suru ho raha hai  */
@@ -76,7 +76,7 @@
      border: none;
 }
 .search-input{
-    width: 500px;
+    width: 100%;
     font-size: 1rem;
     border:none;
 }
@@ -264,7 +264,7 @@ ul a {
     align-items: center;
 
 }
-.logo{
+.footer-logo{
      background-image: url("amazon_logo2.png");
     height: 50px;
     width: 100px;
@@ -272,5 +272,8 @@ ul a {
      background-color: #222f3d;
      justify-content: center;
      align-items: center;
-
 }
+.nav-address,
+.nav-signin,
+.nav-return,
+.nav-cart{padding:5px;}
